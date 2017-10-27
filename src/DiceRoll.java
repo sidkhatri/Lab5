@@ -48,7 +48,7 @@ public class DiceRoll {
 		
 	}
 	
-	//Method for Dice One
+	//Method for generating random numbers for Dice One
 	public static int rollDiceOne(int diceFaceOne) {
 		Random randGen = new Random();
 		
@@ -57,7 +57,7 @@ public class DiceRoll {
 		return diceFaceOne;
 	}
 	
-	//Method for Dice Two
+	//Method for generating random numbers for Dice Two
 	public static int rollDiceTwo(int diceFaceTwo) {
 		Random randGen = new Random();
 		
